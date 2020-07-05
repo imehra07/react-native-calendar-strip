@@ -537,7 +537,7 @@ class CalendarStrip extends Component {
   }
 
   scrollToDate = (date) => {
-    this.Scroller.updateDays(moment(date), moment(date));
+    this.scroller.updateDays(moment(date), moment(date));
     return;
   };
 
