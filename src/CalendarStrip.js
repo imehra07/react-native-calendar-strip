@@ -279,6 +279,7 @@ class CalendarStrip extends Component {
     let newState;
     if (this.props.scrollable) {
       newState = { selectedDate };
+      this.scroller.updateDays(selectedDate, selectedDate);
     } else {
       newState = {
         selectedDate,
