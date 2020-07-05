@@ -389,6 +389,7 @@ class CalendarStrip extends Component {
   createDayProps = (selectedDate) => {
     return {
       selectedDate,
+      scrollToDate: this.scrollToDate,
       onDateSelected: this.onDateSelected,
       scrollable: this.props.scrollable,
       datesWhitelist: this.props.datesWhitelist,
