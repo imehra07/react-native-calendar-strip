@@ -23,7 +23,7 @@ class CalendarStrip extends Component {
     style: PropTypes.any,
     innerStyle: PropTypes.any,
     calendarColor: PropTypes.string,
-
+    scrollToDate: PropTypes.any,
     numDaysInWeek: PropTypes.number,
     scrollable: PropTypes.bool,
     startingDate: PropTypes.any,
